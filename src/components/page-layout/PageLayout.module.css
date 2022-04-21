@@ -1,0 +1,44 @@
+.container {
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: grid;
+    font-size: 1em;
+    font-weight: 700;
+    padding-block: 1em;
+    position: sticky;
+    top: 100vh;
+    z-index: 100;
+}
+
+.header {
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 1.15em;
+    gap: 2em;
+    justify-content: flex-end;
+    padding: .35em 2em;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.header a {
+    color: inherit;
+}
+
+.header a:first-child {
+    margin-inline-end: auto;
+}
