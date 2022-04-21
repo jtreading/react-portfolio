@@ -1,10 +1,13 @@
 .container {
+    background-image: url("pcb_tile_final.png");
+    background-repeat: repeat;
     flex-direction: column;
     min-height: 100vh;
     position: relative;
 }
 
 .footer {
+    text-align: center;
     background-color: black;
     color: white;
     display: grid;
@@ -30,13 +33,22 @@
     z-index: 100;
 }
 
-.title {
+.logo {
+    width: 112px;
+    height: 112px;
+    border-radius: 10px;
+    margin: .5em 2em .5em 0em;
+}
+
+.navButton {
     font-family: 'Courier New', Courier, monospace;
     color: white;
 }
-
-.header a {
-    color: inherit;
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    display: flex;
+    align-items: center;
 }
 
 .header a:first-child {
