@@ -2,7 +2,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styles from './PageLayout.module.css';
-import books from './books-white.png';
+import books from './books-gold.png';
 
 export default function PageLayout({ children }) {
   return (

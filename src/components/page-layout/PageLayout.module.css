@@ -1,5 +1,5 @@
 .container {
-    background-image: url("pcb_tile_final.png");
+    background-image: url("pcb-tile-gold.png");
     background-repeat: repeat;
     flex-direction: column;
     min-height: 100vh;
@@ -8,8 +8,8 @@
 
 .footer {
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: #181818;
+    color: #D4AF37;
     display: grid;
     font-size: 1em;
     font-weight: 700;
@@ -21,8 +21,8 @@
 
 .header {
     align-items: center;
-    background-color: black;
-    color: white;
+    background-color: #181818;
+    color: #D4AF37;
     display: flex;
     font-size: 1.15em;
     gap: 2em;
@@ -42,11 +42,11 @@
 
 .navButton {
     font-family: 'Courier New', Courier, monospace;
-    color: white;
+    color: #D4AF37;
 }
 .title {
     font-family: 'Courier New', Courier, monospace;
-    color: white;
+    color: #D4AF37;
     display: flex;
     align-items: center;
 }
